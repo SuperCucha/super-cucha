@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b0d10">
+<title>Super Cucha | Pedidos para retirar</title>
+<style>
+:root{--bg:#090b0f;--card:#12151b;--text:#f7f7f8;--muted:#a8adb7;--pink:#ff3da7;--cyan:#28e7df;--line:#262b34}
+*{box-sizing:border-box} body{margin:0;background:radial-gradient(circle at 15% 0%,rgba(40,231,223,.12),transparent 30%),radial-gradient(circle at 90% 15%,rgba(255,61,167,.12),transparent 28%),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;min-height:100vh;display:grid;place-items:center;padding:28px 16px}
+main{width:min(100%,480px)}
+.brand{text-align:center;margin-bottom:28px}.brand h1{font-size:42px;line-height:.95;margin:0;font-weight:950;letter-spacing:-2px}.super{color:var(--cyan)}.cucha{color:var(--pink)}.brand p{margin:13px 0 0;font-size:18px;font-weight:750}.brand small{display:block;color:var(--muted);margin-top:7px;font-size:14px}
+.card{background:rgba(18,21,27,.92);border:1px solid var(--line);border-radius:22px;padding:20px;margin:14px 0;box-shadow:0 18px 60px rgba(0,0,0,.28)}
+.row{display:flex;justify-content:space-between;gap:14px;align-items:flex-start}.tag{font-size:11px;font-weight:900;letter-spacing:.7px;padding:6px 9px;border-radius:999px;background:rgba(40,231,223,.11);color:var(--cyan);white-space:nowrap}.tag.off{background:#20242b;color:#8e949e}
+h2{font-size:23px;margin:0 0 8px;letter-spacing:-.5px}.address{color:var(--muted);margin:0;font-size:14px;line-height:1.5}.hours{margin:10px 0 18px;font-size:13px;font-weight:800;color:#d9dce2}
+a.button,.disabled{display:block;width:100%;border-radius:15px;padding:15px 16px;text-align:center;text-decoration:none;font-weight:900;font-size:15px;letter-spacing:.15px}.button{color:#06100f;background:linear-gradient(90deg,var(--cyan),#65fff2);box-shadow:0 8px 26px rgba(40,231,223,.16)}.button:active{transform:translateY(1px)}.disabled{background:#1d2128;color:#777e89;border:1px solid #292e37}
+.coming{opacity:.68}footer{text-align:center;color:#858b95;font-size:12px;margin-top:24px}.ig{font-weight:850;color:#bfc3ca}.accent{height:3px;width:72px;margin:17px auto 0;border-radius:99px;background:linear-gradient(90deg,var(--cyan),var(--pink))}
+</style>
+</head>
+<body>
+<main>
+<header class="brand">
+<h1><span class="super">SUPER</span> <span class="cucha">CUCHA</span></h1>
+<div class="accent"></div>
+<p>Pedidos para retirar</p>
+<small>Elegí tu sucursal</small>
+</header>
+<section class="card">
+<div class="row"><div><h2>KM 35 · Barrio Nicole</h2><p class="address">Sapaleri lote 4</p></div><span class="tag">DISPONIBLE</span></div>
+<p class="hours">Abierto 24 hs</p>
+<a class="button" href="https://wa.me/5491178252077?text=Hola%20Super%20Cucha%20%F0%9F%91%8B%20Quiero%20hacer%20un%20pedido%20para%20retirar%20en%20KM%2035%20-%20Barrio%20Nicole." target="_blank" rel="noopener">HACER PEDIDO POR WHATSAPP →</a>
+</section>
+<section class="card coming">
+<div class="row"><div><h2>KM 36</h2><p class="address">Juan M. de Rosas e/ Daubert y Bellavista</p></div><span class="tag off">PRÓXIMAMENTE</span></div>
+<p class="hours">Abierto 24 hs</p>
+<div class="disabled">PEDIDOS PRÓXIMAMENTE</div>
+</section>
+<footer><span class="ig">@CUCHA_MAXIKIOSCO</span><br>Super Cucha · La Matanza</footer>
+</main>
+</body>
+</html>
